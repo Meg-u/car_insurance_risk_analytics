@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+
+# Ignore data files but not their DVC metadata
+data/*
+!data/*.dvc
+!data/.gitignore
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Data files
+
+*.xlsx
+*.xls
+*.json
+*.parquet
+
+
+# DVC cache directories
+
+# DVC-generated lock and config files (keep these tracked if needed)
+# Uncomment if you want to ignore them:
+# dvc.lock
+# .dvc/config.local
+
+# Logs and output
+*.log
+*.out
+
+# VSCode settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# GitHub Actions logs
+*.coverage
+coverage.xml
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Temporary files
+*.bak
+*.tmp
+~$*
+/MachineLearningRating_v3.txt
