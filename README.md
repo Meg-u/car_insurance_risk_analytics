@@ -18,3 +18,13 @@ Historical data (Feb 2014 – Aug 2015) from AlphaCare internal records.
 - Python, Pandas, Matplotlib, Seaborn
 - Scikit-learn, Statsmodels
 - Git, GitHub, DVC
+
+Task 3: Hypothesis Testing
+Objective
+Statistically determine whether certain factors (e.g., Province, ZipCode, Gender) significantly influence risk or profit metrics — such as:
+
+Claim Frequency (how often claims occur),
+
+Claim Severity (how big claims are),
+
+Margin (TotalPremium - TotalClaims).
