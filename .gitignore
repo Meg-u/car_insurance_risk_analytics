@@ -13,15 +13,18 @@ data/*
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
-
+ data/
 # Data files
-
+*.csv
+*.txt.dvc
+*.csv.dvc
+*.dvc
 *.xlsx
 *.xls
 *.json
 *.parquet
 
-
+notebooks/.csv
 # DVC cache directories
 
 # DVC-generated lock and config files (keep these tracked if needed)
