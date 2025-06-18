@@ -6,7 +6,7 @@ __pycache__/
 # Virtual environment
 venv/
 .venv/
-
+.dvc/
 # Ignore data files but not their DVC metadata
 data/*
 !data/*.dvc
