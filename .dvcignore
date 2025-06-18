@@ -4,3 +4,4 @@
 *.dvc
 *.json.dvc
 data/
+*.txt.dvc
