@@ -1,7 +1,12 @@
 # Byte-compiled / optimized / DLL files
-__pycache__/
+8.__pycache__/
 *.py[cod]
 *$py.class
+
+scripts/__pycache__/
+*.__init__.py/
+
+*.config
 
 # Virtual environment
 venv/
@@ -59,4 +64,41 @@ build/
 *.tmp
 ~$*
 /MachineLearningRating_v3.txt
-../data/MachineLearningRating_v3.txt.dvc
+
+/config.local
+/tmp
+/cache
+# DVC cache
+.dvc/cache/
+.dvc/tmp/
+
+# DVC metafiles (optional, keep if using DVC)
+*.dvc
+!.dvc/config
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook Checkpoints
+**/.ipynb_checkpoints
+
+# Environment folders
+.venv/
+env/
+venv/
+
+# VSCode settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files (you are using DVC)
+data/
+notebooks/processed_MchineLearningRating_data.csv
+
+# DVC-tracked large CSVs (if moved to DVC)
+notebooks/*.csv
