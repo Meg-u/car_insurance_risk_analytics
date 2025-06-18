@@ -1,104 +1,18 @@
-# Byte-compiled / optimized / DLL files
-8.__pycache__/
-*.py[cod]
-*$py.class
-
-scripts/__pycache__/
-*.__init__.py/
-
-*.config
-
-# Virtual environment
-venv/
-.venv/
-.dvc/
-# Ignore data files but not their DVC metadata
-data/*
-!data/*.dvc
-!data/.gitignore
-
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
- data/
-# Data files
-*.csv
-*.txt.dvc
-*.csv.dvc
-*.dvc
-*.xlsx
-*.xls
-*.json
-*.parquet
-
-notebooks/.csv
-# DVC cache directories
-
-# DVC-generated lock and config files (keep these tracked if needed)
-# Uncomment if you want to ignore them:
-# dvc.lock
-# .dvc/config.local
-
-# Logs and output
-*.log
-*.out
-
-# VSCode settings
-.vscode/
-
-# System files
-.DS_Store
-Thumbs.db
-
-# GitHub Actions logs
-*.coverage
-coverage.xml
-
-# Python packaging
-*.egg-info/
-dist/
-build/
-
-# Temporary files
-*.bak
-*.tmp
-~$*
-/MachineLearningRating_v3.txt
-
-/config.local
-/tmp
-/cache
-# DVC cache
-.dvc/cache/
+echo ".dvc/cache/
 .dvc/tmp/
-
-# DVC metafiles (optional, keep if using DVC)
-*.dvc
-!.dvc/config
-
-# Python cache
 __pycache__/
 *.py[cod]
 *.so
-
-# Jupyter Notebook Checkpoints
 **/.ipynb_checkpoints
-
-# Environment folders
 .venv/
 env/
 venv/
-
-# VSCode settings
 .vscode/
-
-# OS files
 .DS_Store
 Thumbs.db
-
-# Data files (you are using DVC)
 data/
 notebooks/processed_MchineLearningRating_data.csv
+notebooks/*.csv" >> .gitignore
 
-# DVC-tracked large CSVs (if moved to DVC)
-notebooks/*.csv
+git add .gitignore
+git commit -m "Add .gitignore to exclude cache, data, venv, and large files"
