@@ -5,6 +5,7 @@ __pycache__/
 
 # Virtual environment
 venv/
+.venv/
 
 # Ignore data files but not their DVC metadata
 data/*
@@ -13,6 +14,7 @@ data/*
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
+
  data/
 # Data files
 *.csv
